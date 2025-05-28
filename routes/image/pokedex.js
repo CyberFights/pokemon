@@ -42,7 +42,7 @@ $drawText[$getData[weight];80;685;65;10] $drawText[$getData[height];80;655;65;10
  
  $drawImage[pokemon;105;330;110;110]
 $loadImage[pokemon;url;http://play.pokemonshowdown.com/sprites/ani/$encodeURI[$getQuery[pokemon]].gif]
- $drawImage[base;0;0;725;800] $loadImage[base;url;https://cdn.discordapp.com/attachments/751712788753154119/1018029179406647396/image.png]
+ $drawImage[base;0;0;725;800] $loadImage[base;url;https://cdn.discordapp.com/attachments/751712788753154119/1018029179406647396/image.png?ex=6838984e&is=683746ce&hm=1f45c04577dda6b852ba2dd046c60eadf39026a860ddee00d2b4ba400f533812&]
   $createCanvas[725;800]
   $request[https://some-random-api.ml/pokemon/pokedex?pokemon=$getQuery[pokemon]]`
 }
